@@ -2,6 +2,12 @@
 
 A light-weight sentence tokenizer for Chinese languages.
 
+## Installation
+
+'''python
+pip install zh-sentence
+'''
+
 ## Sample
 
 ```python
