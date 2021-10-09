@@ -1,4 +1,4 @@
-# zh_sentence
+# zh-sentence
 
 ## Installation
 
