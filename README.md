@@ -4,9 +4,9 @@ A light-weight sentence tokenizer for Chinese languages.
 
 ## Installation
 
-'''python
+```python
 pip install zh-sentence
-'''
+```
 
 ## Sample
 
