@@ -1,5 +1,7 @@
 # zh-sentence
 
+A light-weight sentence tokenizer for Chinese languages.
+
 ## Sample
 
 ```python
