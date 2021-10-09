@@ -1,13 +1,5 @@
 # zh-sentence
 
-## Installation
-
-```python
-
-pip install zh-sentence
-
-```
-
 ## Sample
 
 ```python
