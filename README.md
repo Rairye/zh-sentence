@@ -1,6 +1,6 @@
-#zh_sentence
+# zh_sentence
 
-##Installation
+## Installation
 
 ```python
 
@@ -8,7 +8,7 @@ pip install zh-sentence
 
 ```
 
-##Sample
+## Sample
 
 ```python
 from zh_sentence.tokenizer import tokenize
