@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'zh_sentence',  
   packages = ['zh_sentence'], 
-  version = '0.0.1', 
+  version = '0.0.2', 
   license='apache-2.0', 
   description = 'Light-weight sentence tokenizer for Chinese languages.',
   author = 'Rairye', 
