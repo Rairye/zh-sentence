@@ -33,19 +33,18 @@ def tokenize(paragraph):
     
         last_category = ""
         sentences = []
-        characters = list(paragraph)
         i = 0
         j = 0
-        length = len(characters)
+        length = len(paragraph)
 
         while j < length:
-                current_char = characters[j]
+                current_char = paragraph[j]
                 current_category = "BREAK" if is_break(current_char) else "NOTBREAK"
 
                 if last_category == "BREAK" and current_category == "NOTBREAK":
 
                         if not is_closing_punct(current_char):
-                                sentences.append("".join(characters[i:j]))
+                                sentences.append("".join(paragraph[i:j]).strip())
                                 last_category = current_category
                                 i=j
                                 j+=1
@@ -59,11 +58,11 @@ def tokenize(paragraph):
                         last_category = current_category
                         
                 elif j == length -1:
-                     sentences.append("".join(characters[i:]))
+                     sentences.append("".join(paragraph[i:]).strip())
                      j+=1
                      
                 else:
                      j+=1
                      last_category = current_category
         
-        return [sentence.strip() for sentence in sentences]
+        return sentences
